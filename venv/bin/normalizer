@@ -1,0 +1,6 @@
+#!/Users/arielwertlenspilkin/Education/Coursera/agentic_ai_development_security/module_3_hybrid_ai_search_workflows/venv/bin/python3
+import sys
+from charset_normalizer.cli import cli_detect
+if __name__ == '__main__':
+    sys.argv[0] = sys.argv[0].removesuffix('.exe')
+    sys.exit(cli_detect())
